@@ -245,6 +245,8 @@ const checkWinState = () => {
         alert.classList.add("alert", "alert-success");
         alert.textContent = "Game completed!";
         gameContainer.appendChild(alert);
+        const snd = new Audio("assets/success.mp3");
+        snd.play();
     }
 }
 
@@ -268,7 +270,7 @@ const revealTile = (tile) => {
     tileInfo.classList.add("visible");
 
     squaresLeft--;
-    checkWinState();
+    // checkWinState();
 
 }
 
