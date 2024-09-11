@@ -1,0 +1,23 @@
+.tile {
+	background-color: gray;
+	border: 1px solid black;
+	color: blue;
+	aspect-ratio: 1/1;
+	width: 32px;
+	/* visibility: hidden; */
+}
+
+.closed-tile {
+	background-color: gray !important;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bomb {
+	border: 1px solid black;
+}
+
+.icon {
+	text-align: center;
+	width: 16px;
+	max-width: fit-content;
+}
